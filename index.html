@@ -23,18 +23,51 @@
     </script>
 </head>
 <body>
-    <nav class="bg-[#15803D] px-4 lg:px-[120px] py-2 lg:py-6 flex items-center justify-between">
-        <div class="font-medium lg:font-semibold text-white text-lg lg:text-2xl">
-            <h1>Green Earth</h1>
-        </div>
-        <div class="space-x-2 lg:space-x-6 font-normal lg:font-medium text-white text-xs lg:text-base">
-            <a href="">About</a>
-            <a href="">Gallery</a>
-            <a href="">Plant a Tree</a>
-        </div>
-        <div class="bg-[#FACC15] font-normal lg:font-medium text-[#15803D] text-xs lg:text-base px-2 lg:px-5 py-1 rounded-full">
-            <button>Plant a Tree</button>
-        </div>
-    </nav>
+    <header>
+        <nav class="bg-[#15803D] font-inter px-4 lg:px-[120px] py-2 lg:py-6 flex items-center justify-between">
+            <div class="font-medium lg:font-semibold text-white text-lg lg:text-2xl">
+                <h1>Green Earth</h1>
+            </div>
+            <div class="space-x-2 lg:space-x-6 font-normal lg:font-medium text-white text-xs lg:text-base">
+                <a href="" class="hover:text-[#E6B800]">About</a>
+                <a href="" class="hover:text-[#E6B800]">Gallery</a>
+                <a href="" class="hover:text-[#E6B800]">Plant a Tree</a>
+            </div>
+            <div class="bg-[#FACC15] hover:bg-[#E6B800] font-normal lg:font-medium text-[#15803D] text-xs lg:text-base px-2 lg:px-5 py-1 rounded-full">
+                <button>Plant a Tree</button>
+            </div>
+        </nav>
+        <section class="flex items-end lg:items-center bg-[#CFF0DC] w-full">
+            <div>
+                <img src="assets/hero-leaf1.png" alt="">
+            </div>
+            <div class="font-inter flex flex-col items-center space-y-2">
+                <h1 class="font-bold lg:text-5xl whitespace-nowrap">Plant a Tree, Grow a Future</h1>
+                <p class="font-normal text-[10px] lg:text-[16px] break-words text-center">Join our mission to plant 1 million trees and make the Earth greener for future generations.</p>
+                <button class="bg-[#FACC15] hover:bg-[#E6B800] font-normal lg:font-medium text-[#15803D] text-xs lg:text-base px-2 lg:px-5 py-1 lg:mt-2 rounded-full">Get Involved</button>
+            </div>
+            <div>
+                <img src="assets/hero-leaf2.png" alt="">
+            </div>
+        </section>
+    </header>
+    <main class="font-inter bg-[#DCFCE7]">
+        <section class="w-full max-w-[1090px] h-auto mx-auto px-4 py-12">
+            <div class="flex flex-col">
+                <h1 class="text-center font-semibold text-lg lg:text-[32px] mb-8">About the Campaign</h1>
+                <div class="flex flex-col lg:flex-row gap-8 lg:gap-0">
+                    <img src="assets/about.png" alt="" class="w-full max-w-[380px] lg:max-w-[500px] mx-auto lg:w-[530px] rounded-[10px] object-contain">
+                    <div class="flex flex-col justify-center max-w-[480px] text-[#1F2937] font-normal text-[16px] leading-relaxed">
+                        <p class="mb-5">Green Earth is a global tree plantation initiative dedicated to fighting climate change. Since our start, we’ve planted over 500,000 trees worldwide. By joining our campaign, you help restore forests, create habitats for wildlife, and combat global warming.</p>
+                        <ul class="list-disc list-inside space-y-2 mx-4">
+                            <li>Restoration of natural habitats</li>
+                            <li>Improvement of air quality</li>
+                            <li>Support for local communities</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
