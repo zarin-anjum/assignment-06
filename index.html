@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Earth</title>
+    <!-- daisyUI and Tailwind -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        inter: ['Inter', 'sans-serif'],
+                    },
+                },
+            },
+            plugins: [daisyui],
+        }
+    </script>
+</head>
+<body>
+    <nav class="bg-[#15803D] px-4 lg:px-[120px] py-2 lg:py-6 flex items-center justify-between">
+        <div class="font-medium lg:font-semibold text-white text-lg lg:text-2xl">
+            <h1>Green Earth</h1>
+        </div>
+        <div class="space-x-2 lg:space-x-6 font-normal lg:font-medium text-white text-xs lg:text-base">
+            <a href="">About</a>
+            <a href="">Gallery</a>
+            <a href="">Plant a Tree</a>
+        </div>
+        <div class="bg-[#FACC15] font-normal lg:font-medium text-[#15803D] text-xs lg:text-base px-2 lg:px-5 py-1 rounded-full">
+            <button>Plant a Tree</button>
+        </div>
+    </nav>
+</body>
+</html>
